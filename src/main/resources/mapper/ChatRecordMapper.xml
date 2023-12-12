@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.dominate.achp.mapper.ChatRecordMapper">
+<mapper namespace="cn.hoxinte.ai.mapper.ChatRecordMapper">
     <select id="getUserLatestSceneIdList" resultType="Integer" parameterType="java.lang.Integer">
         SELECT t.scene_id
         FROM (SELECT cr.scene_id

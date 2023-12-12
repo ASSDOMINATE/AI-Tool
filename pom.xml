@@ -57,56 +57,17 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.hwja</groupId>
-            <artifactId>tools</artifactId>
+            <groupId>cn.hoxinte</groupId>
+            <artifactId>tool</artifactId>
             <version>1.0</version>
         </dependency>
 
-        <!-- 阿里 -->
-        <!-- 支付宝支付 -->
-        <dependency>
-            <groupId>com.alipay.sdk</groupId>
-            <artifactId>alipay-sdk-java</artifactId>
-            <version>${alibaba.alipay.version}</version>
-        </dependency>
-        <!-- SMS -->
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-core</artifactId>
-            <version>${alibaba.core.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
-            <version>${alibaba.dysmsapi.version}</version>
-        </dependency>
-        <!-- STS -->
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-sts</artifactId>
-            <version>${alibaba.sts.version}</version>
-        </dependency>
-        <!-- OSS -->
-        <dependency>
-            <groupId>com.aliyun.oss</groupId>
-            <artifactId>aliyun-sdk-oss</artifactId>
-            <version>${alibaba.oss.version}</version>
-        </dependency>
         <!-- fast json -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${alibaba.fastjson.version}</version>
         </dependency>
-
-        <!-- 微信 -->
-        <!-- 支付 -->
-        <dependency>
-            <groupId>com.github.wxpay</groupId>
-            <artifactId>wxpay-sdk</artifactId>
-            <version>${wxpay.version}</version>
-        </dependency>
-
 
         <!-- openai -->
         <dependency>
@@ -165,41 +126,6 @@
             <groupId>com.knuddels</groupId>
             <artifactId>jtokkit</artifactId>
             <version>${jtokkit.version}</version>
-        </dependency>
-
-        <!-- Jwt Token -->
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-api</artifactId>
-            <version>${jjwt.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-impl</artifactId>
-            <version>${jjwt.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-jackson</artifactId>
-            <version>${jjwt.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.auth0</groupId>
-            <artifactId>java-jwt</artifactId>
-            <version>${auth.jwt.version}</version>
-        </dependency>
-
-        <!-- MySql -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <!-- Mybatis plus -->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>${baomidou.mybatis.version}</version>
         </dependency>
 
         <dependency>
