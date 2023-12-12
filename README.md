@@ -1,6 +1,12 @@
-# ACHP
-Ai Chat Helper platform
+#AI工具
 
-基于 ChatGPT 实现的AI对话
+### 接入ChatGPT
 
-设计了预设场景，可实现连续会话，采用Stream传输数据，即时性高
+
+*关键代码位置*
+
+> cn.hoxinte.ai.common.helper
+
+* 可实现连续会话，采用Stream传输数据，即时性高
+* Tokens计算会有误差200以内
+* 改写openai源码，实现代理访问

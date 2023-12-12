@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.dominate</groupId>
-    <artifactId>ACHP</artifactId>
+    <groupId>cn.hoxinte</groupId>
+    <artifactId>AI</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>ACHP</name>
-    <description>Ai Chat Helper platform</description>
+    <name>AI</name>
+    <description>ChatGPT接入工具</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -151,7 +151,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>ACHP</finalName>
+        <finalName>AI</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
